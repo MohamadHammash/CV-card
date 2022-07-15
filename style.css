@@ -1,0 +1,119 @@
+#mypic {
+  height: 15rem;
+  position: absolute;
+  align-self: center;
+}
+#main-nav {
+  height: 10rem;
+}
+
+.address-info {
+  font-style: normal;
+  text-decoration: none;
+  color: whitesmoke;
+}
+body {
+  background-color: #212529;
+}
+.bg-dark-blue {
+  background-color: #20364c;
+}
+.parent {
+  align-items: center;
+  text-align: center !important;
+  display: grid;
+  grid-template-columns: 0.1fr 0.8fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 8rem;
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.Col1 {
+  grid-area: 1 / 1 / 5 / 2;
+  text-align: end;
+}
+.Col2 {
+  grid-area: 1 / 2 / 5 / 3;
+}
+.Col1Row1 {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: end;
+}
+.Col1Row2 {
+  grid-area: 2 / 1 / 3 / 2;
+  text-align: end;
+}
+.Col1Row3 {
+  grid-area: 3 / 1 / 4 / 2;
+  text-align: end;
+}
+.Col1Row4 {
+  grid-area: 4 / 1 / 5 / 2;
+  text-align: end;
+}
+.Col2Row1 {
+  grid-area: 1 / 2 / 2 / 3;
+  text-align: start;
+}
+.Col2Row2 {
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: start;
+}
+.Col2Row3 {
+  grid-area: 3 / 2 / 4 / 3;
+  text-align: start;
+}
+.Col2Row4 {
+  grid-area: 4 / 2 / 5 / 3;
+  text-align: start;
+}
+
+@media only screen and (max-width: 600px) {
+  .parent {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .parent {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .grand-prent {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .grand-prent {
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .grand-prent {
+    margin-left: 35%;
+  }
+}
+
+#btn-add {
+  text-align: center;
+  background-color: #20364c;
+  color: whitesmoke;
+  border: none;
+  width: 5rem;
+  height: 5rem;
+}
+#btn-holder {
+  margin-top: 4rem;
+  margin-right: 4rem;
+  text-align: center;
+}
