@@ -104,9 +104,11 @@ body {
   }
 }
 
-#btn-add {
+.round-socials {
   text-align: center;
   background-color: #20364c;
+  justify-content: center;
+  align-items: center;
   color: whitesmoke;
   border: none;
   width: 5rem;
@@ -114,6 +116,10 @@ body {
 }
 #btn-holder {
   margin-top: 4rem;
-  margin-right: 4rem;
+  margin-right: 10rem;
   text-align: center;
+}
+#btn-holder button{
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
